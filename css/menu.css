@@ -2,8 +2,7 @@
     display: grid;
     min-height: 100px;
     grid-auto-flow: column;
-    background-color: #fcfcfc;
-    grid-gap: 1.5em;
+    background-color: #FFFFFF;
     padding: 0 40px;
     -webkit-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
     -moz-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
@@ -13,19 +12,14 @@
 #logo {
     display: grid;
     justify-content: start;
-    align-content: center;
-    font-family: "Open Sans", sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    color: #000;
-    text-transform: uppercase;
+	align-content: center;
 }
 
-.logo span {
-    color: red;
+.logo img {
+	width: 80%;
 }
 
-#links {
+.menu-lista {
     display: grid;
     justify-content: right;
     align-content: center;
@@ -34,7 +28,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-#links a {
+.li a {
     text-decoration: none;
     color: #333;
     text-transform: uppercase;
@@ -87,7 +81,7 @@ a {
 }
 
 /* Mobile to Tablet  */
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 768px) {
     #links,
     .mobile-menu {
         display: none;
@@ -100,7 +94,7 @@ a {
 }
 
 /* Tablet to Desktop */
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .mobile-btn {
         display: none;
     }
