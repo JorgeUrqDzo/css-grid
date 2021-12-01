@@ -1,35 +1,10 @@
-.banner {
-    /*
-    background-position: center center;
-    background-size: cover;
-*/
-    display: flex;
-    background-color: #ffbe3f;
-    height: auto;
-    margin-top: 25px;
-    color: #ffffff;
-    text-align: left;
-    margin-bottom: 50px;
-    font-size: 32px;
-    padding: 25px;
-}
-
-.banner h2 {
-    margin: 0;
-    padding: 0;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 104px;
-    color: #fc003c;
-}
-
 /* 
 5CC5E7 azul del boton
  */
 
 #visitanos {
     background-color: #ff99c4;
-    padding: 40px;
+    padding: 0px;
     min-height: 500px;
     display: flex;
     justify-content: space-between;
@@ -37,12 +12,12 @@
 }
 
 .visitanos-texto {
+    padding: 50px;
     text-align: start;
     grid-area: visitanos-texto;
 }
 .visitanos-img {
     grid-area: visitanos-img;
-    padding: 20px;
 }
 
 .grid {
@@ -62,6 +37,34 @@
 .visitanos-texto span.title {
     font-size: 5em;
     color: #fc003c;
+}
+
+.visitanos-btn {
+    color: white;
+    padding: 0.5em 1em;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.columnas {
+    margin-top: 1.5em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.img1 {
+    width: 30%;
+}
+
+.img2 {
+    width: 30%;
+}
+
+.img3 {
+    width: 30%;
 }
 
 @media (min-width: 320px) and (max-width: 769px) {
