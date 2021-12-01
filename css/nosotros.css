@@ -1,0 +1,25 @@
+#nosotros {
+    background-color: #ffbe3f !important;
+    padding: 40px;
+}
+
+.nosotros-texto {
+    text-align: start;
+}
+
+.nosotros-texto p {
+    margin-top: 50px;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+
+.nosotros-texto span {
+    font-size: 7em;
+    color: rgb(194, 137, 32);
+}
+
+.nosotros-img{
+    background-image: url(../images/globos.jpg);
+    background-repeat: no-repeat;
+
+}
