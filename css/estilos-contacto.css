@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url("estilos-contacto.css");
 
 html {
     height: 100%;
@@ -41,54 +42,74 @@ main {
     padding-right: 15vh;
 }
 .banner {
-    background-image: url(../images/foto.jpg);
+    /*
     background-position: center center;
     background-size: cover;
-    background-color: red;
-    height: 500px;
+*/
+/*    display: flex;*/
+	background-color: #FFBE3F;
+    height: auto;
     margin-top: 25px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 50px;
+	font-size: 32px;
+	padding: 50px;
 }
-
-.banner h1 {
-    margin: 0;
-    padding: 0;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 140px;
-}
-
-#boton {
-    background-color: #86b24f;
-    border-radius: 30px;
-    -webkit-box-shadow: 0px 4px 4px #000000;
-    box-shadow: 0px 4px 4px #000000;
+.banner2 {
+    /*
+    background-position: center center;
+    background-size: cover;
+*/
+/*    display: flex;*/
+	background-color: #94DCF2;
+    height: auto;
+/*    margin-top: 25px;*/
     color: #ffffff;
     text-align: center;
-    text-decoration: none;
-    padding: 10px 70px;
-    font-size: 32px;
+/*    margin-bottom: 50px;*/
+	font-size: 32px;
+	padding: 50px;
 }
-
+.banner h2 {
+    margin: 0;
+    padding: 0;
+/*
+    padding-top: 50px;
+    padding-bottom: 50px;
+*/
+    font-size: 104px;
+    color: #FC003C;	
+	
+}
+form{
+	font-size: 32px;
+	color: #64595D;
+}
+.bloque{
+    background-color: rgba(255,255,255,0.51);
+    border-color: #5CC5E7;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 635px;
+    height: 78px;
+}
+#submit{
+    background-color: #FC003C;
+    color: #FFFFFF;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    text-align: center;
+    width: 403px;
+    height: 78px;
+	border-radius: 30px;
+}
 .grid-container {
     display: grid;
     grid-template:
         "header" 120px
         "main" auto
         "footer" 100px;
-}
-
-.columnas {
-    display: grid;
-    grid-template:
-        "columna-img1" auto
-        "columna1" auto
-        "columna-img2" auto
-        "columna2" auto
-        "columna-img3" auto
-        "columna3" auto;
 }
 
 /* TABLET */
@@ -112,119 +133,15 @@ main {
             auto auto;
     }
 }
-
-@media (min-width: 1700px) {
-    .columnas {
-        grid-template:
-            "columna-img1 columna1" auto
-            "columna2 columna-img2" auto
-            "columna-img3 columna3" auto /
-            50% auto;
-    }
-
-    .columna-img1 {
-        background-size: cover !important;
-    }
-
-    .columna-img2 {
-        background-size: cover !important;
-    }
-
-    .columna-img3 {
-        background-size: cover !important;
-    }
-}
-
-.columna-img1 {
-    grid-area: columna-img1;
-    background-image: url(../images/regalos.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center center;
-    height: 835px;
-}
-
-.columna-img2 {
-    grid-area: columna-img2;
-    background-image: url(../images/globos.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center center;
-    height: 835px;
-}
-
-.columna-img3 {
-    grid-area: columna-img3;
-    background-image: url(../images/fiesta.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center center;
-    height: 835px;
-}
-.columna1 {
-    grid-area: columna1;
-    background-color: #94dcf2;
-    text-align: center;
-    padding: 50px 50px;
-
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 h2 {
     margin: 0;
     padding: 0;
     font-size: 104px;
     color: #ffffff;
 }
-
-.columna2 {
-    grid-area: columna2;
-    background-color: #ff99c4;
-    text-align: center;
-
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.columna3 {
-    grid-area: columna3;
-    background-color: #ffbe3f;
-    text-align: center;
-
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 h4 {
-    font-size: 40px;
-    color: #ffffff;
-}
-.btn {
-    text-align: center;
-    padding-bottom: 20px;
-}
-.boton {
-    border-radius: 30px;
-    -webkit-box-shadow: 0px 4px 4px #000000;
-    box-shadow: 0px 4px 4px #000000;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 70px;
     font-size: 32px;
-}
-#boton1 {
-    background-color: #ff99c4;
-}
-#boton2 {
-    background-color: #ffbe3f;
-}
-#boton3 {
-    background-color: #94dcf2;
+    color: #ffffff;
 }
 .footer {
     grid-area: footer;
