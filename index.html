@@ -1,94 +1,98 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Balloonery</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/estilos.css" rel="stylesheet" type="text/css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/estilos.css">
+  <title>Ballonery</title>
 </head>
 
-<body class="grid-container">
-  <header class="header">
+<body>
+  <div class="main-grid">
+    <div class="navigation">
+      <!-- Main Top Menu -->
+      <div id="navbar">
+        <div id="logo" class="reverse">
 
-    <a href="index.html"><img src="images/logo.jpg" alt="Balloonery" class="logotipo" /></a>
+          <a href="/">
+            <img class="logo" src="./images/logo.jpg" width="85%"></img>
+          </a>
 
-    <div class="mobile-btn" style="font-size:30px;cursor:pointer; font-weight:bold;" onclick="openNav()">&#9776;
+          <div class="mobile-btn" style="font-size:30px;cursor:pointer; font-weight:bold;" onclick="openNav()">&#9776;
+          </div>
+
+        </div>
+        <div id="links">
+          <a href="/">Home</a>
+          <a href="/nosotros.html">Nosotros</a>
+          <a href="/contacto.html">Contacto</a>
+          <a href="/visitanos.html">Visítanos</a>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mySidenav" class="sidenav">
+        <a style="cursor:pointer;" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/">Home</a>
+        <a href="/nosotros.html">Nosotros</a>
+        <a href="/contacto.html">Contacto</a>
+        <a href="/visitanos.html">Visítanos</a>
+      </div>
     </div>
+    <div class="content">
 
-    <nav class="menu">
-      <ul class="menu-lista">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Contacto</a></li>
-        <li><a href="#">Visítanos</a></li>
-      </ul>
-    </nav>
+      <div id="banner" class="col-1">
+        <span class="title text-white">Feliz Navidad</span>
+        <a href="" class="button button-red">Ver más</a>
+      </div>
 
-  </header>
+      <div class="col-2">
+        <div class="regalo-img"></div>
+        <div class="envolturas">
+          <span class="title text-white">Envolturas</span>
+          <p>"Neque porro quisquam est qui dolorem"</p>
+          <a href="" class="button button-pink">Ver más</a>
+        </div>
 
-  <!-- Mobile Menu -->
-  <div id="mySidenav" class="sidenav">
-    <a style="cursor:pointer;" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">Home</a>
-    <a href="#">Nosotros</a>
-    <a href="#">Contacto</a>
-    <a href="#">Visítanos</a>
+        <div class="globos">
+          <span class="title text-white">Globos</span>
+          <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+            velit..."</p>
+          <a href="" class="button button-orange">Ver más</a>
+        </div>
+        <div class="globos-img"></div>
+
+        <div class="decora-img"></div>
+
+        <div class="decora">
+          <span class="title text-white">Decora tu fiesta</span>
+          <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur"</p>
+          <a href="" class="button button-light-blue">Ver más</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+
+      <div class="footer-nav">
+        <a href="/">Home</a>
+        <a href="/nosotros.html">Nosotros</a>
+        <a href="/contacto.html">Contacto</a>
+        <a href="/visitanos.html">Visítanos</a>
+      </div>
+      <div class="footer-items">
+        <p> © 2021 Ballonery. All rights reserved. </p>
+        <div class="footer-img">
+          <img src="./images/facebook.svg" alt="Facebook" />
+          <img src="./images/instagram.svg" alt="Instagram" />
+        </div>
+      </div>
+
+    </div>
   </div>
 
-  <main class="main">
-    <div class="banner">
-      <h1>Feliz Navidad</h1>
-      <a href="#" id="boton">Ver más</a>
-    </div>
-
-    <div class="columnas">
-
-      <div class="columna-img1"></div>
-
-      <div class="columna1">
-        <h2>Envolturas</h2>
-        <h4 class="texto">"Neque porro quisquam est qui dolorem"</h4>
-        <p class="btn"><a href="#" class="boton" id="boton1">Ver más</a></p>
-      </div>
-
-      <div class="columna2">
-        <h2>Globos</h2>
-        <h4 class="texto">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-          velit..."</h4>
-        <p class="btn"><a href="#" class="boton" id="boton2">Ver más</a></p>
-      </div>
-
-      <div class="columna-img2"> </div>
-      <div class="columna-img3"> </div>
-
-      <div class="columna3">
-        <h2>Decora tu fiesta</h2>
-        <h4 class="texto">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur"</h4>
-        <p class="btn"><a href="#" class="boton" id="boton3">Ver más</a></p>
-      </div>
-    </div>
-
-  </main>
-
-  <footer class="footer">
-    <!-- <nav class="menu-footer">
-      <ul class="menu-lista-footer">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Contacto</a></li>
-        <li><a href="#">Visítanos</a></li>
-      </ul>
-    </nav> -->
-    <p> © 2021 Ballonery. All rights reserved. </p>
-    <img src="images/facebook.svg" alt="Facebook" />
-    <img src="images/instagram.svg" alt="Instagram" />
-  </footer>
-
-  <script src="/js/script.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

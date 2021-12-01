@@ -1,0 +1,41 @@
+#nosotros {
+    background-color: #ffbe3f;
+    padding: 40px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nosotros-texto {
+    text-align: start;
+    grid-area: nosotros-texto;
+}
+.nosotros-img {
+    grid-area: nosotros-img;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+}
+
+.nosotros-texto p {
+    margin-top: 50px;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+
+.nosotros-texto span {
+    font-size: 5em;
+    color: rgb(194, 137, 32);
+}
+
+@media (min-width: 320px) and (max-width: 769px) {
+    #nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -1,77 +1,73 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Balloonery</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-<link href="css/estilos-nosostros.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Ballonery</title>
 </head>
 
-<body class="grid-container">
-<header class="header"> <a href="index.html"><img src="images/logo.jpg" alt="Balloonery" class="logotipo" /></a>
-  <div class="mobile-btn" style="font-size:30px;cursor:pointer; font-weight:bold;" onclick="openNav()">&#9776; </div>
-  <nav class="menu">
-    <ul class="menu-lista">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Nosotros</a></li>
-      <li><a href="#">Contacto</a></li>
-      <li><a href="#">Visítanos</a></li>
-    </ul>
-  </nav>
-</header>
+<body>
+    <div class="main-grid">
+        <div class="navigation">
+            <!-- Main Top Menu -->
+            <div id="navbar">
+                <div id="logo" class="reverse">
 
-<!-- Mobile Menu -->
-<div id="mySidenav" class="sidenav"> <a style="cursor:pointer;" class="closebtn" onclick="closeNav()">&times;</a> <a href="#">Home</a> <a href="#">Nosotros</a> <a href="#">Contacto</a> <a href="#">Visítanos</a> </div>
-<main class="main">
-  <div class="banner">
-	  <div class="img"> <img src="images/visitanos.jpg" width="835" height="1025" alt="Globos"/> </div>
-    <div class="texto">
-      <h2>Visítanos</h2>
-      <h4>Dirección</h4>
-      <p>Av Guillermo Prieto 25C, Constitución, 83150 Hermosillo, Son.</p>
-      <h4>Horario</h4>
-      <p>Lunes - Viernes: 9:30am - 7pm
-        Sábados: 10am - 6pm</p>
-      <h4>Teléfono</h4>
-      <p>662 215 0244</p>
-      <h4>Instagram</h4>
-      <p>ballooneryhermosillo</p>
-		<p class="btn"><a href="#" class="boton">Ver más</a></p>
+                    <a href="/">
+                        <img class="logo" src="./images/logo.jpg" width="85%"></img>
+                    </a>
+                    <div class="mobile-btn" style="font-size:30px;cursor:pointer; font-weight:bold;"
+                         onclick="openNav()">&#9776;
+                    </div>
+
+                </div>
+                <div id="links">
+                    <a href="/">Home</a>
+                    <a href="/nosotros.html">Nosotros</a>
+                    <a href="/contacto.html">Contacto</a>
+                    <a href="/visitanos.html">Visítanos</a>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mySidenav" class="sidenav">
+                <a style="cursor:pointer;" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="/">Home</a>
+                <a href="/nosotros.html">Nosotros</a>
+                <a href="/contacto.html">Contacto</a>
+                <a href="/visitanos.html">Visítanos</a>
+            </div>
+        </div>
+        <div class="content">
+
+            <div id="banner" class="col-1">
+                <span class="title text-white">Feliz Navidad</span>
+                <a href="" class="button button-red">Ver mas</a>
+            </div>
+        </div>
+        <div class="footer">
+
+            <div class="footer-nav">
+                <a href="/">Home</a>
+                <a href="/nosotros.html">Nosotros</a>
+                <a href="/contacto.html">Contacto</a>
+                <a href="/visitanos.html">Visítanos</a>
+            </div>
+            <div class="footer-items">
+                <p> © 2021 Ballonery. All rights reserved. </p>
+                <div class="footer-img">
+                    <img src="./images/facebook.svg" alt="Facebook" />
+                    <img src="./images/instagram.svg" alt="Instagram" />
+                </div>
+            </div>
+
+        </div>
     </div>
-    <!--      <a href="#" id="boton">Ver más</a>--> 
-  </div>
-  
-  
-    <div class="columnas">
-	 
-		<img src="images/regalo1.jpg" width="500" height="500" alt=""/>
-	  <img src="images/flores.jpg" width="500" height="500" alt=""/>
-	  <img src="images/regalo2.jpg" width="500" height="500" alt=""/>
-		
-<!--
-		<div class="columna-img1"></div>
-      <div class="columna-img2"> </div>
-      <div class="columna-img3"> </div>
--->
-		
-  </div>
- 
-  
-</main>
-<footer class="footer"> 
-  <!-- <nav class="menu-footer">
-      <ul class="menu-lista-footer">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Contacto</a></li>
-        <li><a href="#">Visítanos</a></li>
-      </ul>
-    </nav> -->
-  <p> © 2021 Ballonery. All rights reserved. </p>
-  <img src="images/facebook.svg" alt="Facebook" /> <img src="images/instagram.svg" alt="Instagram" /> </footer>
-<script src="/js/script.js"></script>
+
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
