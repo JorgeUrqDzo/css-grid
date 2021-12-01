@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos-contacto.css">
     <title>Ballonery</title>
 </head>
 
@@ -43,9 +44,51 @@
         </div>
         <div class="content">
 
-            <div id="banner" class="col-1">
-                <span class="title text-white">Feliz Navidad</span>
-                <a href="" class="button button-red">Ver mas</a>
+            <div class="banner">
+                <div class="banner2">
+
+                    <div class="texto">
+                        <h2>Contacto</h2>
+                        <h4>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id tempus nulla, at
+                            laoreet
+                            lectus.
+                            Mauris sagittis euismod sodales.
+                        </h4>
+                    </div>
+
+                    <div class="formulario">
+                        <form method="post" name="formulario" id="form">
+                            <div class="columna1">
+                                <p>
+                                    <label for="nombre">Nombre</label>
+                                    <input name="nombre" type="text" class="bloque" id="nombre" size="15"
+                                           maxlength="20">
+                                </p>
+                                <p>
+                                    <label for="email">Email:</label>
+                                    <input name="email" type="email" required="required" class="bloque" id="email"
+                                           autocomplete="off">
+                                </p>
+                                <p>
+                                    <label for="tel">Teléfono:</label>
+                                    <input name="tel" type="tel" class="bloque" id="tel" maxlength="10">
+                                </p>
+                            </div>
+
+                            <div class="columna2">
+                                <p>
+                                    <label for="textarea">Mensaje:</label>
+                                    <textarea name="textarea" rows="10" class="bloque" id="textarea"></textarea>
+                                </p>
+                                <p>
+                                    <input type="submit" name="submit" id="submit" value="Let´s talk">
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <!--      <a href="#" id="boton">Ver más</a>-->
+                </div>
             </div>
         </div>
         <div class="footer">

@@ -28,7 +28,7 @@
 
 .nosotros-texto span {
     font-size: 5em;
-    color: rgb(194, 137, 32);
+    color: #FC003C;
 }
 
 @media (min-width: 320px) and (max-width: 769px) {
