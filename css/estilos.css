@@ -66,8 +66,16 @@ body {
     border: 1px solid green;
 }
 
+.button-red {
+    background-color: #ff4349;
+}
+
+.button-kaki {
+    background-color: #cda576;
+}
+
 .button-green {
-    background-color: #86B24F;
+    background-color: #47C28E;
 }
 
 .button-pink {
@@ -191,6 +199,7 @@ span.title {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 #banner span {

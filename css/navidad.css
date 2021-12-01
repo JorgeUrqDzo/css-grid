@@ -1,0 +1,99 @@
+
+
+#banner-navidad {
+    min-height: 80vh;
+    background-image: url(../images/banner-nav.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#banner span {
+    margin-bottom: 20px;
+    font-size: 7em;
+}
+
+.envolturas-navidad-img {
+    min-height: 60vh;
+    background-image: url(../images/env-navidad.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+.envolturas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF4349;
+}
+
+.envolturas span {
+    margin-bottom: 30px;
+}
+
+.envolturas p {
+    font-size: large;
+    color: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+.globos-img {
+    min-height: 60vh;
+    background-image: url(../images/globos-nav.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.globos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #47C28E;
+}
+
+.globos span {
+    margin-bottom: 30px;
+}
+
+.globos p {
+    font-size: large;
+    color: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+.decora-img {
+    min-height: 60vh;
+    background-image: url(../images/tarjetas.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.decora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDA576;
+}
+
+.decora span {
+    margin-bottom: 30px;
+}
+
+.decora p {
+    font-size: large;
+    color: #f5f5f5;
+    margin-bottom: 20px;
+}
